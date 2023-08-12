@@ -1,4 +1,4 @@
-module helloebitengine
+module hello-ebitengine
 
 go 1.20
 
