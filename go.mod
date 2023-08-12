@@ -1,4 +1,4 @@
-module hello-ebitengine
+module github.com/bioerrorlog/hello-ebitengine
 
 go 1.20
 
