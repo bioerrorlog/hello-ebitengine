@@ -1,7 +1,6 @@
 package main
 
 import (
-	"image/color"
 	"log"
 
 	"github.com/hajimehoshi/ebiten/v2"
@@ -15,7 +14,7 @@ func (g *Game) Update() error {
 }
 
 func (g *Game) Draw(screen *ebiten.Image) {
-	screen.Fill(color.RGBA{0xff, 0, 0, 0xff})
+	// screen.Fill(color.RGBA{0xff, 0, 0, 0xff})
 	ebitenutil.DebugPrint(screen, "Hello, World!")
 }
 
